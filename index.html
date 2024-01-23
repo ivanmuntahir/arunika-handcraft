@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Arunika Handcraft</title>
+    <script src="https://kit.fontawesome.com/36a638c8b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/aru-trans.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Product</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Welcome</p>
+                <h1>Hi, We are <span>Arunika</span> Handcraft<br>From Indonesia</h1>
+            </div>
+        </div>
+    </div>
+    <!-- auto-slideshow -->
+    
+    <!-- ----------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="mySlides fade">
+                        <img src="./images/aru-auto-4.jpeg">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./images/aru-auto-2.jpg">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./images/aru-auto-5.jpg">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Arunika Handcraft</h1>
+                    <p>Estimated 2020 in Tuban, Arunika Handcraft is a store that sells various kinds of handicrafts in the model such as accessories and souvenirs with varied and modern models.
+                        We always maintain quality and creativity so that we can produce attractive handcrafts. We can also make custom handcrafts according to your wishes so that we can give you 
+                        the opportunity to adapt them to your creativity and comfortability.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Find Us</p>
+                            <p class="tab-links" onclick="opentab('experience')">Achievements</p>
+                            <!-- <p class="tab-links" onclick="opentab('education')">Education/Training</p> -->
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Fave Hotel Tuban</span><br><a href="https://maps.app.goo.gl/vc71S3mBYGEuJyHu7" class="maps"><i class="fa-solid fa-map-location-dot"></i> Click me</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-present</span><br>Karya Cah Tuban</li>
+                                <li><span>2022</span><br>Tuban Guyub CFD Festival as speaker</li>
+                                <li><span>2022</span><br>Grand Opening Grand Javanilla Resto Exhibition</li>
+                                <li><span>2021</span><br>HIMATEKK ITS Enterpreneurship Talks</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022</span><br>BE in Computer Engineering from Politeknik Elektronika Negeri Surabaya</li>
+                                <li><span>2023</span><br>ReactJS Developer Intensive Bootcamp at Sanbercode</li>
+                                <li><span>2022</span><br>Front-End Web Development Freshgraduate Academy at Kominfo x Progate</li>
+                                <li><span>2021</span><br>Multiplayer VR Development With Unity at Udemy Course</li>
+                            </ul> -->
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------services-------------------
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-vr-cardboard"></i>
+                    <h2>Rings and Bracelets</h2>
+                    <p>Suitable as jewelry on your hands</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Earrings</h2>
+                    <p>Suitable as jewelry on your hands</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Scrap Mask</h2>
+                    <p>Useful for mask accessories and makes your mask beautiful and elegant</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div> 
+    </div> -->
+    <!-- -----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Our Products</h1>
+            <h2 class="section-title-vr">Bracelets</h2>
+            <div class="work-list-vr">
+                <div class="work">
+                    <img src="./images/brac-2.jpg">
+                    <div class="layer">
+                        <h3>Bracelets 1</h3>
+                        <p>Bracelets with model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/brac-1.jpg">
+                    <div class="layer">
+                    <h3>Bracelets 2</h3>
+                        <p>Bracelets with model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/brac-4.jpg">
+                    <div class="layer">
+                        <h3>Bracelets 3</h3>
+                        <p>Bracelets with model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/brac-5.jpg">
+                    <div class="layer">
+                        <h3>Rings with Bracelets 1</h3>
+                        <p>Rings and Bracelets</p>
+                    </div>
+                </div>
+                
+            </div>
+            <h2 class="section-title-vr">Rings</h2>
+            <div class="work-list-web">
+                <div class="work">
+                    <img src="./images/ring-2.jpg">
+                    <div class="layer">
+                        <h3>Ring 1</h3>
+                        <p>Ring 1 Model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/ring-brac-2.jpg">
+                    <div class="layer">
+                        <h3>Ring and Bracelet 1</h3>
+                        <p>Ring and Bracelet 1 Model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/ring-3.jpeg">
+                    <div class="layer">
+                        <h3>Ring 2</h3>
+                        <p>Ring 2 Model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/ring-brac-1.jpg">
+                    <div class="layer">
+                        <h3>Ring and Bracelet 2</h3>
+                        <p>Ring and Bracelet 2 Model</p>
+                    </div>
+                </div>   
+            </div>
+            <h2 class="section-title-vr">Earrings</h2>
+            <div class="work-list-web">
+                <div class="work">
+                    <img src="./images/ear-1.jpg">
+                    <div class="layer">
+                        <h3>Earrings 1</h3>
+                        <p>Earring 1 Model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/ear-2.jpg">
+                    <div class="layer">
+                        <h3>Earrings 2</h3>
+                        <p>Earring 2 Model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/ear-3.jpg">
+                    <div class="layer">
+                        <h3>Earrings 3</h3>
+                        <p>Earrings 3 Model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/ear-4.jpg">
+                    <div class="layer">
+                        <h3>Earrings 4</h3>
+                        <p>Earrings 4 Model</p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="section-title-vr">Strap Mask</h2>
+            <div class="work-list-web">
+                <div class="work">
+                    <img src="./images/strap-1.jpg">
+                    <div class="layer">
+                        <h3>Strap Mask 1</h3>
+                        <p>Strap Mask 1 Model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/strap-2.jpg">
+                    <div class="layer">
+                        <h3>Strap Mask 2</h3>
+                        <p>Strap Mask 2 Model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/strap-6.jpg">
+                    <div class="layer">
+                        <h3>Strap Mask 3</h3>
+                        <p>Strap Mask 3 Model</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/strap-3.jpg">
+                    <div class="layer">
+                        <h3>Strap Mask 4</h3>
+                        <p>Strap Mask 4 Model</p>
+                    </div>
+                </div>
+            
+            <!-- <h1 class="sub-title-achievement">My Achievement</h1>
+            <div class="achievment-list">
+                <div class="achievment">
+                    <img src="./images/ach-1.png">
+                    <div class="layer">
+                        <h3>Front-End Fresh Graduate Academy 2022</h3>
+                        <p>Short training from KOMINFO x Progate which learn how to be Front-End Developer</p>
+                    </div>
+                </div>
+                <div class="achievment">
+                    <img src="./images/ach-2.png">
+                    <div class="layer">
+                        <h3>Unity Programmer Certification User Level</h3>
+                        <p>A certification from Unity to test how capable Unity Developer is</p>
+                        <h4>My Score 900/1000</h4>
+                    </div>
+                </div>
+                <div class="achievment">
+                    <img src="./images/ach-3.png">
+                    <div class="layer">
+                        <h3>Multiplayer Virtual Reality Development With Unity</h3>
+                        <p>An online course from Udemy to learn how to develop VR from scratch with multiplayer system</p>
+                    </div>
+                </div>
+                <div class="achievment">
+                    <img src="./images/ach-4.png">
+                    <div class="layer">
+                        <h3>PENS International Cooperation Office Volunteer</h3>
+                        <p>Dedicating myself as a volunteer at PICO who has the responsibility to help foreign students during the international exchange program</p>
+                    </div>
+                </div>
+                <div class="achievment">
+                    <img src="./images/ach-6.png">
+                    <div class="layer">
+                        <h3>1st Winner Department Informatics and Computer Engineering Software Festival</h3>
+                        <p>My achievement as 1st place winner in Computer Engineering study program category in software expos and festivals as product owner and developer to develop an IoT system</p>
+                    </div>
+                </div>
+                <div class="achievment">
+                    <div class="layer">
+                        <h3>Coming Soon...</h3>
+                    </div>
+                </div> -->
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------ contact ------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <h3>be part of Arunika's Handcraft</h3>
+                    <p><i class="fa-solid fa-paper-plane"></i>arunikahandcraft@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+62 877-0151-0429</p>
+                    <div class="social-icons">
+                        <!-- <a href="https://www.linkedin.com/in/muhammadivanmuntahir/"><i class="fa-brands fa-linkedin"></i></a> -->
+                        <a href="https://www.instagram.com/arunika_handcraft?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@ivanmuntahir2007"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <!-- <a href="./images/myResume.pdf" download class="btn btn2">Download CV</a> -->
+                </div>
+                <div class="contact-right">
+                    <h3>Submit your message or order here and you can directly contact us</h1>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="phoneNumber" name="Email" placeholder="Your Phone Number" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Arunika Handcraft. Made with <i class="fa-solid fa-heart"></i> Masterpieces</p>
+
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzv4GTbiRqVNi3n7oJkSUBrfR-HVYSwDUrBel_aBDx-gcA8S8PQ665Rzf2UHE3aafw5cg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully, We will contact you soon!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+      <!-- auto-slideshow-script -->
+      <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+        //   for (i = 0; i < dots.length; i++) {
+        //     dots[i].className = dots[i].className.replace(" active", "");
+        //   }
+          slides[slideIndex-1].style.display = "block";  
+        //  dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+        </script>
+        
+
+</body>
+</html>
